@@ -1,0 +1,104 @@
+h2 { 
+  font-family: 'Fugaz One', cursive;
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px -1px 1px black;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+  width: 70px;
+ }
+
+ a:hover {
+  color: blue;
+ }
+
+ ul {
+  list-style-type: none;
+ }
+
+ li {
+  display: inline-block;
+  margin-left: 25px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.7em;
+ }
+
+ nav {
+  width: 40%;
+  margin-left: 28%;
+ }
+
+ header {
+  text-align: center;
+ }
+
+.container {
+  background-image: url("shoe.jpg");
+  background-position: 27% 20%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 1100px;
+  margin: 0 auto;
+ }
+
+ .home p {
+  border-right: 2px solid gray;
+  border-bottom: 1px solid gray;
+  border-bottom-right-radius: 10px;
+  width: 250px;
+  float: right;
+  line-height: 1.7em;
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: 65px;
+  margin-right: 150px;
+  font-family: 'Courgette', cursive;
+ }
+
+ form {
+  line-height: 1.7em;
+  font-size: 1.2em;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  float: right;
+  padding-top: 50px;
+  margin-right: 150px;
+ }
+
+ .button {
+  display: inline-block;
+  width: 150px;
+  color: red;
+  cursor: pointer;
+ }
+
+.txt {
+  float: right;
+  margin-right: 150px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
