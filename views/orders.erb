@@ -1,7 +1,8 @@
+<div class = "orders">
 <h1>Shoes Orders</h1>
 
 <% @orders.each do |order| %>
-
+<div>
 <b>Name:</b>
 <p><%= order.name %></p>
 
@@ -14,7 +15,7 @@
 <b>Order:</b>
 <p><%= order.quantity %> x <%= order.size%> size.</p>
 
-<hr>
-
+</div>
 
 <% end %>
+</div>

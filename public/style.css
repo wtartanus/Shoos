@@ -70,11 +70,14 @@ h2 {
   margin-right: 150px;
  }
 
- .button {
-  display: inline-block;
-  width: 150px;
-  color: red;
+ #button {
+  width: 120px;
+  height: 30px;
+  color: green;
   cursor: pointer;
+  background-color: #ADD8E6;
+  border-radius: 10px;
+  font-size: .7em;
  }
 
 .txt {
@@ -83,6 +86,32 @@ h2 {
   width: 200px;
 }
 
+.orders {
+  text-align: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.orders hr {
+  width: 10%;
+  box-shadow: -1px 3px 5px black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.orders div {
+  float: left;
+  width: 250px;
+  height: 300px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.orders div:hover {
+  background-color: rgba(0,0,0,.7);
+  color: white;
+}
 
 
 
