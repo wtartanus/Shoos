@@ -106,10 +106,11 @@ h2 {
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   padding: 10px;
+  margin: 2px;
 }
 
 .orders div:hover {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.2);
   color: white;
 }
 
